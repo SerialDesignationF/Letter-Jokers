@@ -593,7 +593,7 @@ SMODS.Joker {
 	loc_txt = {
 		name = "P",
 		text = {
-			"Every {C:attention}Picked planet cards (in consumable slots){} give {C:mult}+#2#{} Mult",
+			"Every {C:attention}Picked planet cards (in consumable slots){} give this joker {C:mult}+#2#{} Mult",
 			"{C:inactive}(Currently {C:mult}+#1#{C:inactive} Mult)",
 			"{C:inactive}(Currently {C:attention}#3#{C:inactive})",
 		},
