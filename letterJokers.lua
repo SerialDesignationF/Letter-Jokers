@@ -24,6 +24,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -68,6 +69,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 6,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -112,6 +114,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 9,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -156,6 +159,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 4,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -200,6 +204,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 5,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -244,6 +249,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 6,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -288,6 +294,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 4,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -331,6 +338,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 8,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -375,6 +383,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -417,6 +426,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 3,
 	cost = 10,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -453,6 +463,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 3,
 	cost = 9,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -490,6 +501,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -521,6 +533,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 8,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -552,6 +565,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and context.other_card and context.other_card:get_id() == 9 then
 			return {
@@ -577,6 +591,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 5,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and context.other_card and context.other_card:get_id() == 10 then
 			return {
@@ -609,6 +624,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 8,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		local planet_name = localize {type = "name_text", key = card.ability.extra.planet_name or "c_pluto", set = "Planet"}
 		return {
@@ -652,6 +668,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 3,
 	cost = 9,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -685,6 +702,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and context.other_card and context.other_card:get_id() == 8 then
 			return {
@@ -710,6 +728,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and context.other_card and (context.other_card:get_id() == 6 or context.other_card:get_id() == 7) then
 			return {
@@ -735,6 +754,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 4,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.cardarea == G.play and context.repetition and not context.repetition_only and context.other_card and (context.other_card:get_id() == 2 or context.other_card:get_id() == 3 or context.other_card:get_id() == 10) then
 			return {
@@ -766,6 +786,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 1,
 	cost = 5,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -807,6 +828,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 7,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.final_scoring_step and G.GAME.current_round.hands_left == 0 then
 			for i = 1, #context.scoring_hand do
@@ -837,6 +859,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 8,
+	blueprint_compat = true,
 	calculate = function(self, card, context)
 		if context.selling_self then
 			SMODS.add_card({key = "j_lj_uniform"})
@@ -862,6 +885,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 3,
 	cost = 10,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -902,6 +926,7 @@ SMODS.Joker {
 	unlocked = true,
 	rarity = 2,
 	cost = 7,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
@@ -941,12 +966,13 @@ SMODS.Joker {
 	atlas = "Jokers",
 	pos = {x = 1, y = 3},
 	config = {extra = {
-		emult = 2,
+		emult = 1.5,
 	},
 	},
 	unlocked = true,
 	rarity = 4,
 	cost = 20,
+	blueprint_compat = true,
 	loc_vars = function(self, info_queue, card)
 		return {
 			vars = {
