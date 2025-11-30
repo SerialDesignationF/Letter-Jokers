@@ -1,1 +1,0 @@
-return {["disable_anims"]=false,["score_opt_id"]=2,["break_infinity"]="omeganum",}
